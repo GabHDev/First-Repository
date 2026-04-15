@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <title>FP Selection</title>
+</head>
+<body>
+    <header>
+        <img src="./fp — ImgBB_files/logo(1).png" alt="logo fp">
+        <nav> <!--Descobrir como tornar atalhos no cabeçalho do site-->
+            <ul>
+                <li>Home</li> <!-- Descobrir como se faz links em diferentes locais do site-->
+                <li>Carros</li>
+                <li>Fale Consoco</li>  
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="list">
+            <div class="item">
+                <div class="car-img">
+                    <img src="./fp — ImgBB_files/1.png" alt="imagem_carro">
+                </div>
+                <div class="conteúdo">
+                    <p class="car_informação">
+                        Único Dono 
+                    </p>  
+                    <h2>
+                        Ferrari
+                    </h2>
+                    <p class="descrição">
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, natus eaque. Consequatur nihil voluptatum explicabo ipsa ipsam pariatur dolore beatae adipisci! Libero temporibus ex eius velit, iusto ea laudantium! Et!
+                    </p>
+                    <button>
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <button><img src="./fp — ImgBB_files/arrow.png" alt="seta esquerda"></button>
+            <button><img src="./fp — ImgBB_files/arrow.png" alt="seta direita"></button>
+        </div>
+
+        <div class="indicadores">
+            <div class="número">01</div>
+            <ul>
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+            </ul>
+
+        </div>
+    </section>
+
+
+</body>
+</html>
